@@ -1,0 +1,242 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;400;500&display=swap");
+
+* {
+  font-family: "Inter", sans-serif;
+}
+.navbar {
+  background: var(--content-primary, #0b0840);
+  z-index: 1;
+}
+.nav-item,
+.nav-link {
+  color: white !important;
+}
+.baner {
+  background-image: url("./images/pan.svg");
+  background-repeat: no-repeat;
+  position: relative;
+  top: -150px;
+  height: 870px;
+  width: 100%;
+}
+.baner-con,
+.baner-img {
+  position: relative;
+  top: 200px;
+}
+.baner-con > span {
+  color: var(--content-tetriary, #6c6873);
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 1.6px;
+  text-transform: uppercase;
+}
+.baner-title {
+  color: var(--content-primary, #0b0840);
+  font-family: Inter;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 68px;
+}
+.baner-con > p {
+  color: var(--content-primary, #0b0840);
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+}
+.baner-con > ul {
+  list-style: none;
+  padding: 0;
+}
+.baner-con > ul > li {
+  color: var(--content-primary, #0b0840);
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+  padding: 10px 0px;
+}
+.baner-con > button {
+  margin-top: 20px;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0.064px;
+}
+.service-con {
+  text-align: center;
+}
+.service-con > span {
+  color: var(--content-tetriary, #6c6873);
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 1.6px;
+  text-transform: uppercase;
+}
+.service-con > h3 {
+  color: var(--content-primary, #0b0840);
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 58px;
+  padding-top: 20px;
+}
+.card {
+  width: 200px;
+  height: 264px;
+  padding: 64px 8px 32px 8px;
+  background-color: #ebebeb !important;
+  border: none !important;
+  align-items: center;
+}
+.card > img {
+  width: 80px;
+  position: absolute;
+  top: -40px;
+}
+.card > h6 {
+  color: var(--content-primary, #0b0840);
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 28px;
+}
+.card > p {
+  color: var(--content-tetriary, #6c6873);
+  text-align: center;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.064px;
+}
+
+.revolution-con {
+  border-radius: 12px;
+  background: var(--interactive-default, #5951ff);
+  width: 1216px;
+  height: 320px;
+  margin: 0 auto;
+}
+.revolution-con > div {
+  padding: auto;
+}
+.revolution-con > div > span {
+  color: var(--content-white, #fff);
+  font-family: Inter;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 58px;
+  align-self: stretch;
+}
+.revolution-con > div > p {
+  color: var(--transparent-80, rgba(255, 255, 255, 0.8));
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.064px;
+  align-self: stretch;
+}
+.lst{
+  width: 250px;
+}
+.lst > span{
+  color: var(--content-tetriary, #6C6873);
+  font-family: Inter;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+}
+.footer-list{
+  list-style: none;
+  padding: 0;
+}
+.hiring{
+  color: var(--interactive-default, #5951FF);
+  font-family: Inter;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: 0.072px;
+  padding: 4px;
+  border-radius: 4px;
+  background-color: #EEEDF7;
+}
+.footer-list > li{
+  color: var(--content-primary, #0b0840);
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+  padding: 10px 0px;
+}
+@media screen and (max-width: 480px) {
+  .baner-title {
+    font-family: Inter;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 38px;
+  }
+  .baner-img > img {
+    width: 350px;
+  }
+  .baner {
+    background-size: cover;
+    height: 1200px;
+  }
+  .card {
+    width: 80%;
+    margin-top: 20px;
+  }
+  .revolution-con{
+    height: 500px;
+  }
+  .res-btn {
+    width: 100%;
+  }
+  .footer{
+    justify-content: flex-start;
+  }
+  .lst{
+    width: 220px;
+  }
+  .sep-list > .lst{
+    width: 180px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .baner {
+    background-size: cover;
+    height: 1200px;
+  }
+  .revolution-con {
+    height: 500px;
+  }
+  .res-btn {
+    width: 80%;
+  }
+}
